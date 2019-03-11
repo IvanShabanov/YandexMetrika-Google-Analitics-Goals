@@ -8,6 +8,9 @@ Javascript
 	    if (typeof yaCounterXXXXXXX !== 'undefined') {
 		yaCounterXXXXXXX.reachGoal(GOALNAME);
 	    }
+	    if (typeof ym !== 'undefined') {
+               ym(52735549, 'reachGoal', GOALNAME);
+            };
 	    /* Проверим загрузился ли Google Analytics */
 	    if (typeof ga !== 'undefined') {
 		ga('send', 'event', 'form', 'submit', GOALNAME);
