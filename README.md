@@ -9,7 +9,7 @@ Javascript
 		yaCounterXXXXXXX.reachGoal(GOALNAME);
 	    }
 	    if (typeof ym !== 'undefined') {
-               ym(52735549, 'reachGoal', GOALNAME);
+               ym(XXXXXXX, 'reachGoal', GOALNAME);
             };
 	    /* Проверим загрузился ли Google Analytics */
 	    if (typeof ga !== 'undefined') {
