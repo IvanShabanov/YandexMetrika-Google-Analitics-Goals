@@ -13,6 +13,11 @@ Javascript
             };
 	    /* Проверим загрузился ли Google Analytics */
 	    if (typeof ga !== 'undefined') {
+	    	/* 
+		Для того чтобы это работало через Tag Manager надо 
+		Переменные - Настройки Google Analitics - Расширенная конфигурация - Задать имя трекера 
+		(поставить галочку) и отсавить имя трекера пустым
+		*/
 		ga('send', 'event', 'form', 'submit', GOALNAME);
 	    }
 	    if (typeof gtag !== 'undefined') {
